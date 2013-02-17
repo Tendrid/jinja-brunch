@@ -2,8 +2,8 @@
   "name": "jinja-brunch",
   "version": "1.5.0",
   "description": "Adds jinja support to brunch.",
-  "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/brunch/{{NAME}}-brunch",
+  "author": "Jim Deakins",
+  "homepage": "https://github.com/Tendrid/jinja-brunch",
   "repository": {
     "type": "git",
     "url": "git@github.com:Tendrid/jinja-brunch.git"
