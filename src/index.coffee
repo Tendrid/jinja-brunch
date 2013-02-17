@@ -12,7 +12,7 @@ module.exports = class JinjaCompiler
 
   compile: (data, path, callback) ->
     try
-      data = data.replace(/\n/g,"\\").replace("'","\\'")
+      data = data.replace(/\n/g,"\\\n").replace("'","\\'")
       result = "module.exports = function(context){ return Jinja.render('#{data}', context); };"
     catch err
       error = err
