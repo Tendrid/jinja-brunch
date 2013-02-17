@@ -1,2 +1,2 @@
-# {{NAME}}-brunch 1.5.0 (unreleased)
+# jinja-brunch 0.1.0 (unreleased)
 * Initial release
