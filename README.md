@@ -1,6 +1,7 @@
 ## jinja-brunch
 Adds Jinja support to
 [brunch](http://brunch.io).
+[jinja.js](https://github.com/ericclemmons/jinja.js)
 
 ## Usage
 Add `"jinja-brunch": "x.y.z"` to `package.json` of your brunch app.
