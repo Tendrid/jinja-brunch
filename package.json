@@ -1,0 +1,28 @@
+{
+  "name": "{{NAME}}-brunch",
+  "version": "1.5.0",
+  "description": "Adds {{DESCRIPTION}} support to brunch.",
+  "author": "Paul Miller (http://paulmillr.com/)",
+  "homepage": "https://github.com/brunch/{{NAME}}-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/{{NAME}}-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "node setup.js prepublish",
+    "postpublish": "node setup.js postpublish",
+    "test": "node setup.js test",
+    "postinstall": "node setup.js postinstall"
+  },
+  "engines": {
+    "node": "~0.6.10 || 0.8 || 0.9"
+  },
+  "dependencies": {
+    "coffee-script": "1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "1.8.1",
+    "chai": "1.4.2"
+  }
+}
