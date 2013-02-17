@@ -1,6 +1,6 @@
 {
   "name": "jinja-brunch",
-  "version": "1.5.0",
+  "version": "0.1.0",
   "description": "Adds jinja support to brunch.",
   "author": "Jim Deakins",
   "homepage": "https://github.com/Tendrid/jinja-brunch",
